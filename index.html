@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>BERTUSEW RUNNING CLUB | Discipline • Health • Community</title>
+  <meta name="description" content="Addis Ababa's modern endurance running community. Welcoming beginners, recreational runners, and seasoned athletes. One runner can start it. A community keeps it moving." />
+  
+  <!-- Modern Athletic Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@800;900&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Bertusew Running Club Home">
+        <span class="logo-mark">BRC</span>
+        <span class="logo-text">BERTUSEW<span>.RC</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#runs" class="nav-link">Runs</a>
+        <a href="#routes" class="nav-link">Routes</a>
+        <a href="#events" class="nav-link">Events</a>
+        <a href="#community" class="nav-link">Community</a>
+        <a href="#join" class="btn btn-primary btn-sm">Join</a>
+      </nav>
+
+      <button class="hamburger-btn" id="hamburgerBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile Drawer Menu (Optimized for iPhone / Handheld) -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="drawer-header">
+        <span class="drawer-tag">ADDIS ABABA, ET</span>
+        <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+      </div>
+      <nav class="mobile-nav">
+        <a href="#about" class="mobile-link"><span>01</span> About</a>
+        <a href="#runs" class="mobile-link"><span>02</span> Runs</a>
+        <a href="#routes" class="mobile-link"><span>03</span> Routes</a>
+        <a href="#events" class="mobile-link"><span>04</span> Events</a>
+        <a href="#community" class="mobile-link"><span>05</span> Community</a>
+        <a href="#vision" class="mobile-link"><span>06</span> Vision</a>
+        <a href="#join" class="btn btn-primary btn-full-mobile">JOIN THE CLUB</a>
+      </nav>
+      <div class="mobile-drawer-footer">
+        <p class="slogan-micro">DISCIPLINE | HEALTH | COMMUNITY</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero-section" id="hero">
+    <div class="hero-media-wrapper">
+      <!-- PLACEHOLDER IMAGE: Replace background-image in style.css or swap img tag here -->
+      <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?auto=format&fit=crop&w=2000&q=80" 
+           alt="Endurance runners pushing limits on the asphalt" 
+           class="hero-media" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-content container">
+      <div class="location-badge reveal-fade">
+        <span class="live-dot"></span>
+        <span>ADDIS ABABA, ETHIOPIA • 2,355M ALTITUDE</span>
+      </div>
+
+      <h1 class="hero-title reveal-fade">
+        <span class="title-club">BERTUSEW</span>
+        <span class="title-sub">RUNNING CLUB</span>
+      </h1>
+
+      <p class="hero-mantra reveal-fade">
+        RUN TOGETHER.<br />BECOME STRONGER TOGETHER.
+      </p>
+
+      <div class="hero-pills reveal-fade">
+        <span>DISCIPLINE</span>
+        <span class="separator">•</span>
+        <span>HEALTH</span>
+        <span class="separator">•</span>
+        <span>COMMUNITY</span>
+      </div>
+
+      <div class="hero-actions reveal-fade">
+        <a href="#join" class="btn btn-primary">JOIN THE CLUB</a>
+        <a href="#runs" class="btn btn-outline">EXPLORE OUR RUNS</a>
+      </div>
+    </div>
+
+    <a href="#about" class="scroll-cue" aria-label="Scroll to content">
+      <span class="mouse-icon"></span>
+      <span class="cue-label">SCROLL</span>
+    </a>
+  </section>
+
+  <!-- ==================== SECTION 2: OUR STORY ==================== -->
+  <section class="section story-section" id="about">
+    <div class="container">
+      <div class="story-grid">
+        <div class="story-header reveal-fade">
+          <span class="section-subtitle">// THE PHILOSOPHY</span>
+          <h2 class="section-title">ONE RUNNER CAN START IT.<br /><span class="text-lime">A COMMUNITY KEEPS IT MOVING.</span></h2>
+        </div>
+
+        <div class="story-body reveal-fade">
+          <p class="lead-text">
+            Bertusew Running Club was founded on the pavement and trails of Addis Ababa with a clear, unwavering belief: endurance is not just for the elite—it is a foundation for living a disciplined, connected, and healthy life.
+          </p>
+          <p>
+            Whether you are lacing up shoes for your very first kilometer or preparing for a personal marathon record, you do not have to move alone. We are building a culture anchored in discipline, accessible health, and genuine Ethiopian camaraderie.
+          </p>
+
+          <div class="story-tags">
+            <div class="tag-card">
+              <span class="tag-number">01</span>
+              <h4>Beginners First</h4>
+              <p>Zero intimidation. Structured pacing support so you build stamina safely.</p>
+            </div>
+            <div class="tag-card">
+              <span class="tag-number">02</span>
+              <h4>Recreational Balance</h4>
+              <p>Sweat, unwind from your work week, and connect with positive people.</p>
+            </div>
+            <div class="tag-card">
+              <span class="tag-number">03</span>
+              <h4>Serious Endurance</h4>
+              <p>High-altitude engine work, distance blocks, and race-day discipline.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3: WEEKLY RUNS ==================== -->
+  <section class="section weekly-runs-section" id="runs">
+    <div class="container">
+      <div class="section-head reveal-fade">
+        <span class="section-subtitle">// SCHEDULE</span>
+        <h2 class="section-title">WEEKLY SESSIONS</h2>
+        <p class="section-lead">Consistent weekly sessions to build your endurance rhythm in the heart of Addis Ababa.</p>
+      </div>
+
+      <div class="runs-grid">
+        <!-- Run Card 1: Friday -->
+        <article class="run-card reveal-fade">
+          <div class="run-card-status">WEEKLY FIXED</div>
+          <div class="run-card-timeframe">EVERY FRIDAY</div>
+          <h3 class="run-card-title">FRIDAY GROUP RUN</h3>
+          <p class="run-card-desc">Community running session to release weekday stress and launch the weekend with momentum.</p>
+
+          <ul class="run-specs">
+            <li>
+              <span class="spec-label">Meeting Point:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., Meskel Square / Bole Park]</span>
+            </li>
+            <li>
+              <span class="spec-label">Time:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., 6:00 AM EAT]</span>
+            </li>
+            <li>
+              <span class="spec-label">Distance:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., 5KM - 8KM]</span>
+            </li>
+            <li>
+              <span class="spec-label">Pace Groups:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: All Paces Accommodated]</span>
+            </li>
+          </ul>
+
+          <div class="card-actions">
+            <button class="btn btn-sm btn-ghost open-details-btn" data-target="modal-friday">VIEW DETAILS</button>
+            <a href="#join" class="btn btn-sm btn-primary">JOIN RUN</a>
+          </div>
+        </article>
+
+        <!-- Run Card 2: Sunday -->
+        <article class="run-card featured-run reveal-fade">
+          <div class="run-card-status highlight">FLAGSHIP GATHERING</div>
+          <div class="run-card-timeframe">EVERY SUNDAY</div>
+          <h3 class="run-card-title">SUNDAY COMMUNITY RUN</h3>
+          <p class="run-card-desc">Our flagship open-road session. Group stretches, steady paces, hydration breaks, and collective coffee talks.</p>
+
+          <ul class="run-specs">
+            <li>
+              <span class="spec-label">Meeting Point:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., Entoto Park Gate / Jan Meda]</span>
+            </li>
+            <li>
+              <span class="spec-label">Time:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., 6:30 AM EAT]</span>
+            </li>
+            <li>
+              <span class="spec-label">Distance:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: e.g., 5KM / 10KM / 15KM Options]</span>
+            </li>
+            <li>
+              <span class="spec-label">Pace Groups:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: Beginner, Intermediate & Tempo]</span>
+            </li>
+          </ul>
+
+          <div class="card-actions">
+            <button class="btn btn-sm btn-ghost open-details-btn" data-target="modal-sunday">VIEW DETAILS</button>
+            <a href="#join" class="btn btn-sm btn-primary">JOIN RUN</a>
+          </div>
+        </article>
+
+        <!-- Run Card 3: Special Events -->
+        <article class="run-card reveal-fade">
+          <div class="run-card-status">MONTHLY ROTATION</div>
+          <div class="run-card-timeframe">SPECIAL ACTIVITIES</div>
+          <h3 class="run-card-title">SPECIAL RUNS & HIKES</h3>
+          <p class="run-card-desc">Weekend altitude trail excursions, hill sprints, distance milestones, and community field outings.</p>
+
+          <ul class="run-specs">
+            <li>
+              <span class="spec-label">Meeting Point:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: Rotating Addis & Oromia Trails]</span>
+            </li>
+            <li>
+              <span class="spec-label">Frequency:</span>
+              <span class="spec-value">[EDITABLE PLACEHOLDER: Bi-weekly / Monthly]</span>
+            </li>
+            <li>
+              <span class="spec-label">Disciplines:</span>
+              <span class="spec-value">Trail Running, Mountain Hikes, 10K Time Trials</span>
+            </li>
+            <li>
+              <span class="spec-label">Pace Groups:</span>
+              <span class="spec-value">Support Crew + Multiple Paces</span>
+            </li>
+          </ul>
+
+          <div class="card-actions">
+            <button class="btn btn-sm btn-ghost open-details-btn" data-target="modal-special">VIEW DETAILS</button>
+            <a href="#events" class="btn btn-sm btn-primary">JOIN RUN</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: FIND YOUR PACE ==================== -->
+  <section class="section pace-section">
+    <div class="container">
+      <div class="section-head reveal-fade">
+        <span class="section-subtitle">// INCLUSIVITY & STANDARDS</span>
+        <h2 class="section-title">FIND YOUR PACE</h2>
+        <p class="section-lead">You do not have to be fast to belong. You only need the willingness to show up.</p>
+      </div>
+
+      <div class="pace-grid">
+        <div class="pace-card reveal-fade">
+          <div class="pace-tag">TIER 01</div>
+          <h3 class="pace-name">BEGINNER</h3>
+          <div class="pace-target">Walk-Run & Gentle Baseline</div>
+          <p class="pace-body">For people starting their running journey or returning after injury. Focus is on breath regulation, posture, and zero shame.</p>
+          <div class="pace-footer">No runner left behind</div>
+        </div>
+
+        <div class="pace-card reveal-fade">
+          <div class="pace-tag">TIER 02</div>
+          <h3 class="pace-name">EASY / RECREATIONAL</h3>
+          <div class="pace-target">Conversational Aerobic Pace</div>
+          <p class="pace-body">For people who want to run, socialize, burn off stress, and maintain solid cardiovascular health with high-energy company.</p>
+          <div class="pace-footer">Social & Energizing</div>
+        </div>
+
+        <div class="pace-card reveal-fade">
+          <div class="pace-tag">TIER 03</div>
+          <h3 class="pace-name">INTERMEDIATE</h3>
+          <div class="pace-target">Endurance & Velocity Building</div>
+          <p class="pace-body">For runners looking to comfortably finish 10Ks, build aerobic threshold, and systematically shave minutes off their pace.</p>
+          <div class="pace-footer">Milestone Focused</div>
+        </div>
+
+        <div class="pace-card reveal-fade">
+          <div class="pace-tag">TIER 04</div>
+          <h3 class="pace-name">ADVANCED</h3>
+          <div class="pace-target">Pace Precision & Half/Full Prep</div>
+          <p class="pace-body">For dedicated runners pushing high weekly volume, high-cadence tempos, and targeting local and continental race goals.</p>
+          <div class="pace-footer">Performance Driven</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 5: RUN ADDIS ==================== -->
+  <section class="section routes-section" id="routes">
+    <div class="container">
+      <div class="section-head reveal-fade">
+        <span class="section-subtitle">// ROUTE LIBRARY</span>
+        <h2 class="section-title">DISCOVER ADDIS. RUN ADDIS.</h2>
+        <p class="section-lead">Every route tells a story of elevation, grit, fresh eucalyptus air, and the soul of the city.</p>
+      </div>
+
+      <div class="routes-grid">
+        <!-- Route 1 -->
+        <article class="route-card reveal-fade">
+          <div class="route-badge">ELEVATION CHALLENGE</div>
+          <div class="route-header">
+            <h3 class="route-title">[ROUTE PLACEHOLDER 1: Entoto Forest Ridge]</h3>
+            <span class="route-distance">10.5 KM</span>
+          </div>
+          <p class="route-desc">[EDITABLE CONTENT: High altitude training route through forest paths with rewarding views of Addis Ababa.]</p>
+          
+          <div class="route-metrics">
+            <div class="metric-item">
+              <span class="metric-label">DIFFICULTY</span>
+              <span class="metric-val diff-hard">Challenging</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">ELEVATION</span>
+              <span class="metric-val">+340m Gain</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">START POINT</span>
+              <span class="metric-val">[Entoto Gate 1]</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">REC. PACE</span>
+              <span class="metric-val">6:00 - 7:30 /km</span>
+            </div>
+          </div>
+          <button class="btn btn-outline btn-full route-modal-trigger" 
+                  data-route-title="Entoto Forest Ridge" 
+                  data-route-dist="10.5 KM"
+                  data-route-info="[EDITABLE CONTENT: Detailed directions, water stops, terrain notes and gpx download will appear here.]">
+            EXPLORE ROUTE
+          </button>
+        </article>
+
+        <!-- Route 2 -->
+        <article class="route-card reveal-fade">
+          <div class="route-badge">COMMUNITY LOOP</div>
+          <div class="route-header">
+            <h3 class="route-title">[ROUTE PLACEHOLDER 2: Bole Boulevard Loop]</h3>
+            <span class="route-distance">5.2 KM</span>
+          </div>
+          <p class="route-desc">[EDITABLE CONTENT: Flat, accessible urban tarmac stretch ideal for sunrise sprints and recreational recovery runs.]</p>
+          
+          <div class="route-metrics">
+            <div class="metric-item">
+              <span class="metric-label">DIFFICULTY</span>
+              <span class="metric-val diff-easy">Gentle / Moderate</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">ELEVATION</span>
+              <span class="metric-val">+45m Gain</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">START POINT</span>
+              <span class="metric-val">[Edna Mall Junction]</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">REC. PACE</span>
+              <span class="metric-val">All Welcome</span>
+            </div>
+          </div>
+          <button class="btn btn-outline btn-full route-modal-trigger" 
+                  data-route-title="Bole Boulevard Loop" 
+                  data-route-dist="5.2 KM"
+                  data-route-info="[EDITABLE CONTENT: Recommended on Friday mornings before heavy traffic. Well lit with broad sidewalks.]">
+            EXPLORE ROUTE
+          </button>
+        </article>
+
+        <!-- Route 3 -->
+        <article class="route-card reveal-fade">
+          <div class="route-badge">HISTORIC FLAT CIRCUIT</div>
+          <div class="route-header">
+            <h3 class="route-title">[ROUTE PLACEHOLDER 3: Jan Meda Circuit]</h3>
+            <span class="route-distance">7.0 KM</span>
+          </div>
+          <p class="route-desc">[EDITABLE CONTENT: Historic open track grounds for speed work, intervals, form drills, and community pacing testing.]</p>
+          
+          <div class="route-metrics">
+            <div class="metric-item">
+              <span class="metric-label">DIFFICULTY</span>
+              <span class="metric-val diff-mid">Moderate</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">ELEVATION</span>
+              <span class="metric-val">Flat Tarmac & Grass</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">START POINT</span>
+              <span class="metric-val">[Jan Meda Main Gate]</span>
+            </div>
+            <div class="metric-item">
+              <span class="metric-label">REC. PACE</span>
+              <span class="metric-val">Tempo / Open</span>
+            </div>
+          </div>
+          <button class="btn btn-outline btn-full route-modal-trigger" 
+                  data-route-title="Jan Meda Circuit" 
+                  data-route-dist="7.0 KM"
+                  data-route-info="[EDITABLE CONTENT: Classic training ground where countless Ethiopian champions have tested their legs.]">
+            EXPLORE ROUTE
+          </button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 6: COMMUNITY & STATS ==================== -->
+  <section class="section stats-section" id="community">
+    <div class="container">
+      <div class="stats-intro reveal-fade">
+        <span class="section-subtitle">// THE MOVEMENT</span>
+        <h2 class="quote-title">“More than running. We are building a community around movement.”</h2>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-card reveal-fade">
+          <div class="stat-number" data-count="700">700+</div>
+          <div class="stat-label">COMMUNITY MEMBERS</div>
+          <div class="stat-sub">Connected across Addis</div>
+        </div>
+
+        <div class="stat-card reveal-fade">
+          <div class="stat-number" data-count="50">50+</div>
+          <div class="stat-label">ACTIVE RUNNERS</div>
+          <div class="stat-sub">Showing up rain or shine</div>
+        </div>
+
+        <div class="stat-card reveal-fade">
+          <div class="stat-number" data-count="2">2</div>
+          <div class="stat-label">WEEKLY GROUP RUNS</div>
+          <div class="stat-sub">Fixed Friday & Sunday routines</div>
+        </div>
+
+        <div class="stat-card reveal-fade">
+          <div class="stat-number" data-count="300">300+</div>
+          <div class="stat-label">PEOPLE REACHED</div>
+          <div class="stat-sub">Through our running community</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 7: EVENTS ==================== -->
+  <section class="section events-section" id="events">
+    <div class="container">
+      <div class="section-head reveal-fade">
+        <span class="section-subtitle">// UPCOMING CALENDAR</span>
+        <h2 class="section-title">CALENDAR & CHALLENGES</h2>
+        <p class="section-lead">Test yourself across new distances, outdoor adventures, and special community challenges.</p>
+      </div>
+
+      <div class="events-list">
+        <!-- Event Item 1 -->
+        <article class="event-item reveal-fade">
+          <div class="event-meta">
+            <span class="event-badge">COMMUNITY RUN</span>
+            <span class="event-date">[UPCOMING SUNDAY]</span>
+          </div>
+          <div class="event-info">
+            <h3 class="event-title">Community Sunrise Run & Coffee</h3>
+            <p class="event-specs-inline">
+              <span><strong>Location:</strong> [Placeholder: Meskel Square]</span>
+              <span>•</span>
+              <span><strong>Distance:</strong> 7 KM</span>
+              <span>•</span>
+              <span><strong>Details:</strong> Easy recovery pace followed by traditional Buna gathering.</span>
+            </p>
+          </div>
+          <div class="event-action">
+            <a href="#join" class="btn btn-sm btn-primary">JOIN EVENT</a>
+          </div>
+        </article>
+
+        <!-- Event Item 2 -->
+        <article class="event-item reveal-fade">
+          <div class="event-meta">
+            <span class="event-badge badge-alt">HIKE & SCRAMBLE</span>
+            <span class="event-date">[MONTH END]</span>
+          </div>
+          <div class="event-info">
+            <h3 class="event-title">Suba Forest Mountain Trail Hike</h3>
+            <p class="event-specs-inline">
+              <span><strong>Location:</strong> [Suba Forest Park / Menagesha]</span>
+              <span>•</span>
+              <span><strong>Distance:</strong> 12 KM</span>
+              <span>•</span>
+              <span><strong>Details:</strong> Altitude climbing, fresh oxygen, nature immersion for all members.</span>
+            </p>
+          </div>
+          <div class="event-action">
+            <a href="#join" class="btn btn-sm btn-primary">JOIN EVENT</a>
+          </div>
+        </article>
+
+        <!-- Event Item 3 -->
+        <article class="event-item reveal-fade">
+          <div class="event-meta">
+            <span class="event-badge">RUNNING CHALLENGE</span>
+            <span class="event-date">[IN 3 WEEKS]</span>
+          </div>
+          <div class="event-info">
+            <h3 class="event-title">Bertusew 10K Benchmark Challenge</h3>
+            <p class="event-specs-inline">
+              <span><strong>Location:</strong> [Jan Meda Track / Addis Circuit]</span>
+              <span>•</span>
+              <span><strong>Distance:</strong> 10 KM Timed</span>
+              <span>•</span>
+              <span><strong>Details:</strong> Check your baseline pacing and set your personal benchmark.</span>
+            </p>
+          </div>
+          <div class="event-action">
+            <a href="#join" class="btn btn-sm btn-primary">JOIN EVENT</a>
+          </div>
+        </article>
+
+        <!-- Event Item 4 -->
+        <article class="event-item reveal-fade">
+          <div class="event-meta">
+            <span class="event-badge badge-alt">FUTURE PREP</span>
+            <span class="event-date">[COMING SOON]</span>
+          </div>
+          <div class="event-info">
+            <h3 class="event-title">First Bertusew Urban Cycling Ride</h3>
+            <p class="event-specs-inline">
+              <span><strong>Location:</strong> [Addis Ababa Roadways]</span>
+              <span>•</span>
+              <span><strong>Distance:</strong> 25 KM</span>
+              <span>•</span>
+              <span><strong>Details:</strong> Expanding our multisport endurance vision with a safe group ride.</span>
+            </p>
+          </div>
+          <div class="event-action">
+            <a href="#join" class="btn btn-sm btn-outline">REGISTER INTEREST</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 8: JOIN BERTUSEW (FORM) ==================== -->
+  <section class="section join-section" id="join">
+    <div class="container">
+      <div class="join-card reveal-fade">
+        <div class="join-header">
+          <span class="section-subtitle">// TAKE THE STEP</span>
+          <h2 class="section-title">YOUR FIRST RUN STARTS HERE.</h2>
+          <p class="join-sub">Zero membership fee required for your first session. Fill out this quick form, and we’ll reach out with meeting point pin and welcome details.</p>
+        </div>
+
+        <form class="join-form" id="joinClubForm" novalidate>
+          <div class="form-grid">
+            
+            <div class="input-group">
+              <label for="fullName">Full Name <span class="req">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="e.g., Abebe Bikila" required />
+              <span class="field-error" id="nameError">Please enter your full name</span>
+            </div>
+
+            <div class="input-group">
+              <label for="phoneNumber">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="e.g., +251 91 123 4567" required />
+              <span class="field-error" id="phoneError">Please enter a valid phone number</span>
+            </div>
+
+            <div class="input-group">
+              <label for="telegramUser">Telegram Username <span class="opt">(Recommended)</span></label>
+              <div class="input-prefix-wrap">
+                <span class="prefix">@</span>
+                <input type="text" id="telegramUser" name="telegramUser" placeholder="username" />
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="runningExperience">Running Experience <span class="req">*</span></label>
+              <select id="runningExperience" name="runningExperience" required>
+                <option value="" disabled selected>Select your current experience</option>
+                <option value="complete-beginner">Complete Beginner (Just starting out)</option>
+                <option value="recreational">Recreational Runner (Run occasionally)</option>
+                <option value="intermediate">Intermediate (Run 2-3x weekly)</option>
+                <option value="advanced">Advanced (Experienced endurance runner)</option>
+              </select>
+              <span class="field-error" id="expError">Please select your experience</span>
+            </div>
+
+            <div class="input-group">
+              <label for="preferredPace">Preferred Pace Category <span class="req">*</span></label>
+              <select id="preferredPace" name="preferredPace" required>
+                <option value="" disabled selected>Select how fast you like to move</option>
+                <option value="pace-beginner">Beginner (Gentle jog / Walk-run intervals)</option>
+                <option value="pace-easy">Easy / Social Pace (Conversational)</option>
+                <option value="pace-intermediate">Intermediate (5:30 - 6:30 min/km)</option>
+                <option value="pace-advanced">Fast / Performance (&lt; 5:00 min/km)</option>
+                <option value="pace-unknown">I don't know my pace yet</option>
+              </select>
+              <span class="field-error" id="paceError">Please pick a pace tier</span>
+            </div>
+
+            <div class="input-group">
+              <label for="mainGoal">Main Goal <span class="req">*</span></label>
+              <select id="mainGoal" name="mainGoal" required>
+                <option value="" disabled selected>What drives you to run?</option>
+                <option value="lose-weight">Lose weight</option>
+                <option value="improve-fitness">Improve fitness</option>
+                <option value="first-5k">Run my first 5K</option>
+                <option value="improve-5k">Improve my 5K</option>
+                <option value="train-10k">Train for 10K</option>
+                <option value="train-half-marathon">Train for a half marathon</option>
+                <option value="meet-community">Meet a running community</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="field-error" id="goalError">Please select your primary goal</span>
+            </div>
+
+          </div>
+
+          <div class="form-submit-row">
+            <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+              <span>JOIN BERTUSEW</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+            <p class="privacy-note">We respect your privacy. No spam. You will only receive run coordinate updates.</p>
+          </div>
+        </form>
+
+        <!-- Dynamic Success Feedback State -->
+        <div class="form-success-card" id="formSuccessMessage" style="display: none;" role="alert">
+          <div class="success-icon">✓</div>
+          <h3 class="success-title">WELCOME TO THE BERTUSEW PACK!</h3>
+          <p class="success-text">Your submission has been recorded. Tap the button below to join our Telegram channel for this week's route location.</p>
+          <!-- EDITABLE: Replace href with your actual Telegram Channel or Bot link -->
+          <a href="https://t.me/YOUR_TELEGRAM_LINK_HERE" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+            OPEN BERTUSEW TELEGRAM NOW
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 9: TELEGRAM DEDICATED ==================== -->
+  <section class="section telegram-section">
+    <div class="container">
+      <div class="telegram-box reveal-fade">
+        <div class="telegram-icon-art">
+          <svg viewBox="0 0 24 24" width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M21.5 2L2 9.5l7 3 2 7 3.5-4.5L19 18l2.5-16z"/>
+          </svg>
+        </div>
+        <div class="telegram-content">
+          <span class="section-subtitle">// INSTANT UPDATES</span>
+          <h2 class="telegram-title">STAY CONNECTED.</h2>
+          <p class="telegram-desc">
+            Get weekly run announcements, meeting points, reminders, and community updates directly on Telegram.
+          </p>
+        </div>
+        <div class="telegram-action">
+          <!-- EDITABLE: Insert your actual Telegram Channel Link below -->
+          <a href="https://t.me/YOUR_TELEGRAM_LINK_HERE" target="_blank" rel="noopener noreferrer" class="btn btn-telegram">
+            JOIN OUR TELEGRAM COMMUNITY
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 10: SOCIAL MEDIA ==================== -->
+  <section class="section socials-section">
+    <div class="container">
+      <div class="socials-wrapper reveal-fade">
+        <span class="section-subtitle">// FOLLOW OUR TRACKS</span>
+        <h3 class="socials-heading">CATCH US ON THE GROUND</h3>
+        <div class="social-links-grid">
+          
+          <!-- EDITABLE: Replace # with your real TikTok link -->
+          <a href="https://tiktok.com/@YOUR_TIKTOK_HERE" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <span class="social-icon">TikTok</span>
+            <span class="social-handle">@bertusew.rc</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <!-- EDITABLE: Replace # with your real Instagram link -->
+          <a href="https://instagram.com/YOUR_INSTAGRAM_HERE" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <span class="social-icon">Instagram</span>
+            <span class="social-handle">@bertusew.rc</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+          <!-- EDITABLE: Replace # with your real Telegram link -->
+          <a href="https://t.me/YOUR_TELEGRAM_LINK_HERE" target="_blank" rel="noopener noreferrer" class="social-btn">
+            <span class="social-icon">Telegram</span>
+            <span class="social-handle">t.me/bertusew</span>
+            <span class="social-arrow">↗</span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 11: FUTURE VISION ==================== -->
+  <section class="section vision-section" id="vision">
+    <div class="container">
+      <div class="vision-card reveal-fade">
+        <div class="vision-content">
+          <span class="section-subtitle">// HORIZON</span>
+          <h2 class="vision-title">FROM RUNNING CLUB<br />TO ENDURANCE COMMUNITY.</h2>
+          <p class="vision-text">
+            Bertusew is deliberately growing beyond our weekly road loops. We are laying the groundwork toward group cycling rides, open-water and pool swimming, altitude outdoor camps, and a broader multisport active-lifestyle community rooted in Addis Ababa.
+          </p>
+          <div class="vision-pillars">
+            <span class="pillar-tag">RUNNING</span>
+            <span class="pillar-bullet">•</span>
+            <span class="pillar-tag">CYCLING</span>
+            <span class="pillar-bullet">•</span>
+            <span class="pillar-tag">SWIMMING</span>
+            <span class="pillar-bullet">•</span>
+            <span class="pillar-tag">OUTDOOR ADVENTURE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="brand-logo footer-logo">
+          <span class="logo-mark">BRC</span>
+          <span class="logo-text">BERTUSEW<span>.RC</span></span>
+        </div>
+        <p class="footer-slogan">DISCIPLINE | HEALTH | COMMUNITY</p>
+        <p class="footer-city">ADDIS ABABA, ETHIOPIA</p>
+      </div>
+
+      <div class="footer-nav-block">
+        <div class="footer-col">
+          <h5 class="footer-heading">NAVIGATION</h5>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#runs">Runs</a></li>
+            <li><a href="#routes">Routes</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#join">Join</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h5 class="footer-heading">CONNECT</h5>
+          <ul class="footer-links">
+            <!-- EDITABLE PLACEHOLDERS -->
+            <li><a href="https://t.me/YOUR_TELEGRAM_LINK_HERE" target="_blank" rel="noopener">Telegram</a></li>
+            <li><a href="https://tiktok.com/@YOUR_TIKTOK_HERE" target="_blank" rel="noopener">TikTok</a></li>
+            <li><a href="https://instagram.com/YOUR_INSTAGRAM_HERE" target="_blank" rel="noopener">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom container">
+      <p>&copy; <span id="currentYear">2026</span> BERTUSEW RUNNING CLUB. All rights reserved.</p>
+      <p class="footer-meta">Born in Addis Ababa, Ethiopia.</p>
+    </div>
+  </footer>
+
+  <!-- ==================== INTERACTIVE RUN / ROUTE MODAL ==================== -->
+  <div class="modal-overlay" id="infoModal" aria-hidden="true" role="dialog">
+    <div class="modal-card">
+      <button class="modal-close" id="modalCloseBtn" aria-label="Close dialog">&times;</button>
+      <span class="modal-pre" id="modalTag">SESSION BRIEF</span>
+      <h3 class="modal-heading" id="modalTitle">Run Title</h3>
+      <div class="modal-body-text" id="modalDetails">Information details placeholder.</div>
+      <div class="modal-cta">
+        <a href="#join" class="btn btn-primary btn-full" id="modalActionBtn">RSVP / JOIN THIS SESSION</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Trigger -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
